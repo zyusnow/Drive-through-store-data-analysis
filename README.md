@@ -28,10 +28,10 @@ Each section includes a visualization and a brief summary of the insights gained
 2. Stores 1081 and 1101 exhibit similar patterns.
 3. The busiest period for all stores is between 5 am and 9 am. Additionally, red and green stores receive orders early (before 5 am) and late (after 10 pm).
 4. Anomalies in order times are visible in the box graph, such as an order that took 489 seconds in the blue store after 5 am. These anomalies are also observed in green and red stores.
-5. Variance in service times can be analyzed using the box graph. Longer boxes indicate a larger variance and less consistent service, as observed for the blue store after 6 pm and both green and red stores around 3 am, 10 pm, and 11 pm.
+5. Variance in service times can be analyzed using the box graph. Longer boxes indicate a larger variance and less consistent service, as observed for the blue store after 5 pm and both green and red stores around 3 am, 3pm, 5pm, 10 pm.
 6. The box graph allows for comparison of average order times across different time slots, revealing that the blue and red stores have considerably longer average order times (137 seconds) at specific points.
-7. The purple store has unstable service throughout most of the day, indicating considerable room for improvement in service stability.
-8. The blue store provides relatively stable service before 4 pm but has a larger variance in pickup times after 4 pm, possibly due to variations in dinner orders.
+7. The purple store has fewest orders but unstable service throughout most of the day, indicating considerable room for improvement in service stability.
+8. The blue store provides relatively stable service before 4 pm but has a larger variance in pickup times betwee 4pm and 6pm, possibly due to variations in dinner orders.
 
 ## Future design frontend work
 1. Executive Dashboard: Create an executive dashboard that provides a high-level overview of the key performance indicators (KPIs) for each store, such as the number of orders, average order times, and customer satisfaction scores. This allows managers to quickly assess the performance of each store at a glance.
